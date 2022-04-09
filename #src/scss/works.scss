@@ -46,7 +46,7 @@
 	display: inline-block;
 	font-size: 30px;
 	font-weight: 700;
-	line-height: 44 / 30 * 100%;
+	line-height: calc(44 / 30) * 100%;
 	margin: 0px 0px 15px 0px;
 	transition: color 0.3s ease 0s;
 	@media (max-width: $md3+px) {
