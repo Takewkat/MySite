@@ -1,5 +1,5 @@
 
-### it is an educational project done to learn gulp, mixins and new techniques
+### It is an educational project done to learn gulp, mixins and new techniques
 
 HOW TO USE:
 ```sh
