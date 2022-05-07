@@ -26,3 +26,6 @@ Options for solving problems with imagemin:
 ```sh
 npm install gulp-imagemin@7.1.0 --save-dev
 ```
+
+
+Takewkat.github.io
