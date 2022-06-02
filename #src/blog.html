@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
-	@@include('_head.html',{
-	"title":"Blog",
-	})
-	<body>
-		<div class="wrapper">
-			@@include('_header.html',{
-			"link":"2"
-			})
-			<main class="page">
-				<div class="blog page__container _container">
-					<h1 class="blog__title title">Blog</h1>
-					<div class="blog__items">
-						<div class="blog__item">
-							<a href="" class="blog__article-name">React social App</a>
-							<div class="blog__info">
-								<div class="blog__date">14 Dec 2021</div>
-								<span class="blog__separator">|</span>
-								<div class="blog__category">Projects</div>
-							</div>
-							<div class="blog__text text">
-								The project is under development. I create a mini-network that works on the same principle as facebook</div>
+@@include('_head.html',{
+"title":"Blog",
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{
+		"link":"2"
+		})
+		<main class="page">
+			<div class="blog page__container _container">
+				<h1 class="blog__title title">Blog</h1>
+				<div class="blog__items">
+					<div class="blog__item">
+						<a href="https://www.welcometothejungle.com/fr/companies/ab-tasty" class="blog__article-name">I work for a
+							great company</a>
+						<div class="blog__info">
+							<div class="blog__date">1 Apr 2022</div>
+							<span class="blog__separator">|</span>
+							<div class="blog__category">Info</div>
 						</div>
-						<div class="blog__item">
-							<a href="" class="blog__article-name">React + Storybook</a>
-							<div class="blog__info">
-								<div class="blog__date">1 Dec 2021</div>
-								<span class="blog__separator">|</span>
-								<div class="blog__category">Tests</div>
-							</div>
-							<div class="blog__text text">
-								I have to be able to properly test the application. The project needs to be added by integration tests and unit tests</div>
+						<div class="blog__text text">
+							Finally, I can work in the heart of Paris in a comfortable place as a QA engineer(Junior). Now I create
+							tests, provide technical support and solve interesting tasks =)</div>
+					</div>
+					<div class="blog__item">
+						<a href="https://github.com/Takewkat/TS-React-Storybook" class="blog__article-name">React + Storybook</a>
+						<div class="blog__info">
+							<div class="blog__date">1 Nov 2021</div>
+							<span class="blog__separator">|</span>
+							<div class="blog__category">Learning</div>
 						</div>
-						<div class="blog__item">
-							<a href="https://takewkat.github.io/github.io-project2/" class="blog__article-name">Web pages creation</a>
-							<div class="blog__info">
-								<div class="blog__date">April 2022</div>
-								<span class="blog__separator">|</span>
-								<div class="blog__category">HTML, SCSS</div>
-							</div>
-							<div class="blog__text text">
-								I worked as a web integrator and created a new page and new elements according to the customer's design. This is a very useful and important experience for me on how to adapt and build the page</div>
-						</div>
+						<div class="blog__text text">
+							I have to be able to properly test the application. The project needs to be added by integration tests and
+							unit tests</div>
 					</div>
 				</div>
-			</main>
-			@@include('_footer.html',{})
-		</div>
-		@@include('_js.html',{})
-	</body>
+			</div>
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_js.html',{})
+</body>
+
 </html>
