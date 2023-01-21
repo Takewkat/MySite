@@ -1,22 +1,19 @@
 
 ### It is an educational project done to learn gulp, mixins and new techniques
 
+Special thanks: https://www.patreon.com/freelancerlifestyle
+
 HOW TO USE:
 ```sh
-1) npm i
-2) npm install gulp --save-dev
-3) gulp
+1) yarn
+2) yarn gulp
 ```
 
 with error Cannot Get: update the page again
 
 problems with node-sass
 ```sh
-npm rebuild node-sass
-```
-problems with python
-```sh
-npm install --global windows-build-tools
+yarn rebuild node-sass
 ```
 
 Options for solving problems with imagemin:
@@ -24,7 +21,7 @@ Options for solving problems with imagemin:
 - the img tag and its contents must be written in one line without hyphenation
 - the src attribute must contain the path to the existing image
 ```sh
-npm install gulp-imagemin@7.1.0 --save-dev
+yarn add -D gulp-imagemin@7.1.0
 ```
 
-https://takewkat.github.io/
+Deployment: https://takewkat.github.io/
