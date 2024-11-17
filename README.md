@@ -1,6 +1,4 @@
 
-### It is an educational project done to learn gulp, mixins and new techniques
-
 Special thanks: https://www.patreon.com/freelancerlifestyle
 
 HOW TO USE:
